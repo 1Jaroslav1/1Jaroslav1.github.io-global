@@ -1,0 +1,30 @@
+.agent{
+    padding: 58px 0 75px 0;
+    background: url('../image/bg_china.jpg') center (center/cover) no-repeat;
+    &_bg_meneger{
+        background: none;
+        background: url('../image/bg_meneger.jpg') center (center/cover) no-repeat;
+    }
+    &__img{
+        display: block;
+        margin: 0 auto;
+        width: 102px;
+        height: 102px;
+        margin-bottom: 20px;
+    }
+    &__title{
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 0.88;
+        text-align: center;
+        color: #ffffff;
+        margin-bottom: 22px;
+    }
+    &__descr{
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 1.42;
+        text-align: center;
+        color: #ffffff;
+    }
+}

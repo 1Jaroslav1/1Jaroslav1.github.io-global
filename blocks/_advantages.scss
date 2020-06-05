@@ -1,0 +1,28 @@
+.advantages{
+    padding: 57px 0 51px 0;
+    background-color: #f3f3f3;
+    &__item{
+        display: block;
+        margin: 0 auto;
+        width: 70%;
+        margin-bottom: 25px;
+    }
+    &__image{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    &__subtitle{
+        font-size: 16px;
+        font-weight: bold;
+        color: $main-color;
+        text-align: center;
+    }
+    &__descr{
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.57;
+        text-align: center;
+        color: #3a3a3a;
+    }
+}

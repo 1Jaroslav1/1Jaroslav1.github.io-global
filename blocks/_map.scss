@@ -1,0 +1,40 @@
+.map{
+    height: 500px;
+    position: relative;
+    &__info{
+        position: absolute;
+        top: 0;
+        left: 100%;
+        transform: translateX(-100%);
+        width: 200px;
+        height: 100px;
+        background-color: #ffffff;
+        padding: 10px 21px;
+        border: #3a3a3a 2px solid;
+    }
+    &__title{
+        font-size: 12px;
+        font-weight: bold;
+        color: $main-color;
+        line-height: 1.43;
+        text-align: left;
+    }
+    &__descr{
+        font-size: 10px;
+        font-weight: 300;
+        line-height: 1.43;
+        text-align: left;
+        color: #3a3a3a;
+    }
+    &__email{
+        font-size: 10px;
+        font-weight: 300;
+        line-height: 1.43;
+        text-align: left;
+        color: $main-color;
+        &:hover{
+            text-decoration: none;
+            color: $main-color;
+        }
+    }
+}

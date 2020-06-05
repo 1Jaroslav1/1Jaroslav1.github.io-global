@@ -1,0 +1,31 @@
+.button{
+    display: block;
+    width: 124px;
+    height: 34px;
+    font-size: 10px;
+    background-color: $main-color;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 20px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    &:hover{
+        color: $main-color;
+        background-color: #fff;
+    }
+    &_mb0{
+        margin-bottom: 0;
+    }
+    &_big{
+        width: 141px;
+        height: 35px;
+        font-size: 11px;
+        font-weight: bold;
+        line-height: 1.17;
+        border-radius: 25px;
+        margin-bottom: 0;
+    }
+}
