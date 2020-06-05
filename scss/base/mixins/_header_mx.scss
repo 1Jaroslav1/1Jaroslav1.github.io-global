@@ -1,0 +1,117 @@
+@media (min-width: 575px){
+    .header{
+        &__logo{
+            img{
+                width: 60px;
+                height: 62.5px;
+            }
+        }
+        &__menu{
+            &__item{
+                font-size: 26px;
+                margin-bottom: 25px;
+            }
+        }
+    }
+}
+@media (min-width: 767px){
+    .header{
+        &__logo{
+            img{
+                width: 77px;
+                height: 80px;
+            }
+        }
+        &__hamburger{
+            i{
+                font-size: 35px;
+            }
+        }
+        &__menu{
+            &__item{
+                font-size: 34px;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+@media (min-width: 991px){
+    .header{
+        margin-bottom: 10px;
+        &__logo{
+            img{
+                width: 99px;
+                height: 95px;
+            }
+        }
+        &__wrapper{
+            width: 86%;
+        }
+        &__hamburger{
+            display: none;
+        }
+        &__menu{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 15px;
+            line-height: 1.13;
+            text-align: center;
+            color: #ffffff;
+            margin-right: 12px;
+            &_mobile{
+                display: none;
+            }
+            &__item{
+                font-size: 15px;
+                line-height: 1.13;
+                text-align: center;
+                color: #ffffff;
+                margin-right: 5px;
+                border-right: 1.5px dotted #ffffff;
+                padding-right: 5px;
+                margin-bottom: 0;
+                &:hover{
+                    text-decoration: underline;
+                    color: $main-color;
+                }
+                &:last-child{
+                    border-right: none;
+                }
+            }
+        }
+        &__contacts{
+            display: block;
+            margin-right: 5px;
+        }
+        &__question{
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 1.71;
+            text-align: right;
+            color: #ffffff;
+        }
+        &__phone{
+            font-size: 15px;
+            font-weight: bold;
+            line-height: 1.26;
+            text-align: right;
+            color: #ffffff;
+        }
+
+        button{
+            display: block;
+        }
+    }
+}
+@media (min-width: 1200px){
+    .header{
+        &__menu{
+            margin-right: 60px;
+            &__item{
+                margin-right: 10px;
+                padding-right: 10px;
+            }
+        }
+    }
+}

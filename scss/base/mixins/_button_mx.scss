@@ -1,0 +1,42 @@
+@media (min-width: 575px){
+    .button{
+        &_big{
+            width: 150px;
+            height: 40px;
+        }
+    }
+}
+@media (min-width: 767px){
+    
+    .button{
+        width: 140px;
+        height: 39px;
+        &_big{
+            width: 180px;
+            height: 48px;
+            font-size: 13px;
+        }
+    }
+}
+@media (min-width: 991px){
+    .button{
+        font-size: 11px;
+        &_big{
+            width: 230px;
+            height: 57px;
+            font-size: 15px;
+        }
+    }
+}
+@media (min-width: 1200px){
+    .button{
+        width: 160px;
+        height: 45px;
+        font-size: 12px;
+        &_big{
+            width: 230px;
+            height: 57px;
+            font-size: 15px;
+        }
+    }
+}

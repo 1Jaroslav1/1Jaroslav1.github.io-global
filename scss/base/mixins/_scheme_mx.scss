@@ -1,0 +1,38 @@
+@media (min-width: 575px){
+    .scheme{
+        &__item{
+            padding: 0 100px;
+            margin-bottom: 40px;
+        }
+    }
+}
+@media (min-width: 767px){
+    .scheme{
+        &__wrapper{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        &__item{
+            width: 50%;
+            padding: 0 20px;
+            margin-bottom: 20px;
+        }
+    }
+}
+@media (min-width: 991px){
+    .scheme{
+        &__wrapper{
+            align-items: flex-start;
+        }
+        &__item{
+            width: 25%;
+            padding: 0 5px;
+            margin-bottom: 40px;
+        }
+    }
+}
+@media (min-width: 1200px){
+    
+}

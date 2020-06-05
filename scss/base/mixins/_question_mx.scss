@@ -1,0 +1,31 @@
+@media (min-width: 575px){
+    .question{
+        &__block{
+            width: 60%
+        }
+    }
+}
+@media (min-width: 767px){
+    .question{
+        &__block{
+            height: 370px;
+        }
+        &__title{
+            font-size: 19px;
+        }
+        &__subtitle{
+            font-size: 14px;
+        }
+    }
+}
+@media (min-width: 991px){
+    .question{
+        &__block{
+            width: 80%;
+            height: 305px;
+        }
+    }
+}
+@media (min-width: 1200px){
+    
+}

@@ -1,0 +1,44 @@
+@media (min-width: 575px){
+    .delivery{
+        &__item{
+            margin-bottom: 40px;
+        }
+    }
+}
+@media (min-width: 767px){
+    .delivery{
+        &__item{
+            width: 300px;
+            margin-bottom: 50px;
+            &__title{
+                padding: 15px 0;
+            }
+        }
+    }
+}
+@media (min-width: 991px){
+    .delivery{
+        &__wrapper{
+            display: flex;
+            justify-content: space-between;
+            align-content: center;
+        }
+        &__item{
+            width: 225px;
+            margin-bottom: 56px;
+            &__text{
+                padding: 0 15px;;
+            }
+        }
+    }
+}
+@media (min-width: 1200px){
+    .delivery{
+        &__item{
+            width: 260px;
+            &__text{
+                padding: 0 25px;;
+            }
+        }
+    }
+}

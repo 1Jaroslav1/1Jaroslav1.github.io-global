@@ -1,0 +1,32 @@
+@media (min-width: 575px){
+    
+}
+@media (min-width: 767px){
+    .title{
+        font-size: 23px;
+        margin-bottom: 20px;
+        &_advantages{
+            margin-bottom: 38px;
+        }
+        &_scheme{
+            margin-bottom: 38px;
+        }
+    }
+    .line{
+        margin-bottom: 17px;
+    }
+    .subtitle{
+        width: 70%;
+        margin: 0 auto;
+        font-size: 21px;
+        margin-bottom: 35px;
+    }
+}
+@media (min-width: 991px){
+    .title{
+        font-size: 26px;
+    }
+}
+@media (min-width: 1200px){
+    
+}

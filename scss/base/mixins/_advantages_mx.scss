@@ -1,0 +1,40 @@
+@media (min-width: 575px){
+    .advantages{
+        &__item{
+            width: 50%;
+        }
+    }
+}
+@media (min-width: 767px){
+    
+}
+@media (min-width: 991px){
+    .advantages{
+        &__case{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        &__item{
+            width: 45%;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 36px;
+        }
+        &__image{
+            margin-right: 17px;
+            margin-bottom: 0;
+        }
+        &__subtitle{
+            text-align: left;
+        }
+        &__descr{
+            text-align: left;
+        }
+    }
+}
+@media (min-width: 1200px){
+    
+}

@@ -1,0 +1,31 @@
+@media (max-width: 991px){
+    .reviews{
+        &__item{
+            img{
+                width: 90px;
+                height: 90px;
+            }
+        }
+        &__name{
+            font-size: 15px;
+        }
+        &__descr{
+            font-size: 12px;
+        }
+    }
+
+    .slick-prev, .slick-next {
+        left: -40px;
+    }
+    .slick-next{
+        right: -40px;
+        left: auto;
+    }
+}
+@media (max-width: 575px){
+    
+}
+@media (max-width: 767px){
+    
+}
+

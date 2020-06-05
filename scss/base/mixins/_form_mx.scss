@@ -1,0 +1,36 @@
+@media (min-width: 575px){
+    
+}
+@media (min-width: 767px){
+    
+}
+@media (min-width: 991px){
+    .form{
+        &__inputs{
+            flex-direction: row;
+            justify-content: center;
+        }
+        &__input{
+            height: 45px;
+            margin-right: 5px;
+            margin-bottom: 30px;
+            &:last-child{
+                margin-right: 0;
+            }
+            &_mb8{
+                margin-bottom: 8px;
+                width: 32.75%;
+            }
+        }
+    }
+}
+@media (min-width: 1200px){
+    .form{
+        &__input{
+            font-size: 14px;
+        }
+        textarea{
+            font-size: 14px;
+        }
+    }
+}
